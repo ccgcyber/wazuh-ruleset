@@ -1,8 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
-
-## [v3.3.0]
+## [v3.4.0]
 
 ### Added
   - CIS rootchecks for Windows 2012 R2 (by @Bob-Andrews).
@@ -12,6 +11,21 @@ All notable changes to this project will be documented in this file.
 ### Fixed
   - Windows rules: Fix SID syntax for group membership changes. ([#125](https://github.com/wazuh/wazuh-ruleset/pull/125)).
   - Windows decoders: Match "Subject :" format ([#128](https://github.com/wazuh/wazuh-ruleset/pull/128)).
+
+## [v3.3.1]
+
+### Added
+
+  - Rule to detect when agents are unable to unmerge shared files. ([#143](https://github.com/wazuh/wazuh-ruleset/pull/143))
+
+## [v3.3.0]
+
+There are no changes for Wazuh Ruleset in this version.
+
+
+## [v3.2.4]
+
+There are no changes for Wazuh Ruleset in this version.
 
 
 ## [v3.2.3]
